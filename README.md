@@ -1,13 +1,13 @@
-# Py-MLUtils
+# Py-MLUtils-vision
 
-Py-MLUtils library is a Python library that provides various functionalities for image processing and annotation manipulation. It includes functions to visualize annotations, convert annotations from COCO format to YOLO format, move images matched with annotations to a different folder, and apply common image augmentations.
+Py-MLUtils-vision library is a Python library that provides various functionalities for image processing and annotation manipulation. It includes functions to visualize annotations, convert annotations from COCO format to YOLO format, move images matched with annotations to a different folder, and apply common image augmentations.
 
 ## Installation
 
 You can install the library using pip:
 
 ```bash
-pip install Py-MLUtils
+pip install Py-MLUtils-vision
 ```
 # Usage
 ## Visualize Annotations
@@ -67,4 +67,4 @@ apply_augmentation(input_folder, output_folder, lambda img: rotate_image(img, an
 This function applies common image augmentations to images in the input folder and saves the augmented images in the output folder. You can specify different augmentation functions such as flipping, resizing, and rotating the images.
 
 ## Contributing
-Contributions to Py-MLUtils library are welcome! If you have any ideas, bug reports, or feature requests, please open an issue or submit a pull request.
+Contributions to Py-MLUtils-vision library are welcome! If you have any ideas, bug reports, or feature requests, please open an issue or submit a pull request.
